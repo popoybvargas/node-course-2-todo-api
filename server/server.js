@@ -56,3 +56,5 @@ newUser.save().then( ( doc ) =>
 	console.log( 'Saved user', JSON.stringify( doc, undefined, 2 ) );
 }, ( e ) => console.log( 'Unableto save user', e ) );
 */
+
+module.exports = { app };
